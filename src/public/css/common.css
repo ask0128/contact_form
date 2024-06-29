@@ -1,0 +1,59 @@
+html,
+main {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.header {
+  height: 60px;
+  border-bottom: 0.8px solid #dedcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__inner {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header__block {
+  margin-left: auto;
+}
+
+.header__block:last-of-type {
+  margin-left: auto;
+}
+
+.header__logo {
+  text-align: center;
+  text-decoration: none;
+  color: #957f78;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* 問い合わせフォームの共通CSS */
+.form__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__title--text {
+  color: #957f78;
+  font-size: 20px;
+}
